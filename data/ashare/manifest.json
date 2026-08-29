@@ -1,0 +1,69 @@
+{
+  "generated_utc": "2026-08-29T16:57:56Z",
+  "start": "2021-08-30",
+  "end": "2026-08-28",
+  "limitations": {
+    "one_minute_5y": false,
+    "one_minute_note": "免费接口无法提供全市场近5年1分钟线。本目录 minute_1_recent 仅为东方财富最近1-5日。",
+    "five_minute_5y": true,
+    "five_minute_source": "BaoStock query_history_k_data_plus frequency=5 adjustflag=2(前复权)",
+    "daily_sources": [
+      "BaoStock frequency=d",
+      "EastMoney klt=101 fqt=1(前复权)"
+    ]
+  },
+  "files": [
+    {
+      "path": "data/ashare/daily/000001_上证指数_bs_daily.csv.gz",
+      "rows": 1211,
+      "bytes": 57107,
+      "sha256": "231fa03492be1294930455b908b3573abded07129cd4ddba269a7d31b23f6b37",
+      "first": [
+        "2021-08-30",
+        "sh.000001",
+        "3535.0727",
+        "3539.4940",
+        "3512.9929",
+        "3528.1512",
+        "3522.1567",
+        "51278571600",
+        "699116242830.1000",
+        "3",
+        "1.349242",
+        "0.170194"
+      ],
+      "last": [
+        "2026-08-28",
+        "sh.000001",
+        "3950.2368",
+        "3970.3095",
+        "3947.7981",
+        "3952.1790",
+        "3956.5710",
+        "51058164500",
+        "970365152112.9000",
+        "3",
+        "1.043061",
+        "-0.111005"
+      ],
+      "code": "000001",
+      "name": "上证指数",
+      "source": "baostock",
+      "freq": "daily"
+    },
+    {
+      "path": "data/ashare/minute_5/000001_上证指数_bs_5min.csv.gz",
+      "rows": 0,
+      "bytes": 75,
+      "sha256": "f23dad25068cda4acc6daa37919cbf4467444263b9c7f32a068b877e8110bddc",
+      "first": null,
+      "last": null,
+      "code": "000001",
+      "name": "上证指数",
+      "source": "baostock",
+      "freq": "5min",
+      "elapsed_sec": 0.7
+    }
+  ],
+  "errors": []
+}
